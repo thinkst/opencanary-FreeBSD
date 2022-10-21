@@ -6,6 +6,7 @@ FreeBSD port for OpenCanary
 OpenCanary creates a network honeypot allowing you to catch hackers before they fully compromise your systems. As a technical definition, OpenCanary is a daemon that runs several canary versions of services that alerts when a service is (ab)used.
 
 Docs: https://opencanary.readthedocs.io/en/latest/
+
 GitHub: https://github.com/thinkst/opencanary
 
 ## Install
@@ -25,6 +26,7 @@ sudo make package
 ```
 
 This will create a FreeBSD package in the `work/pkg/` folder of the port.
+
 The package can be installed on systems using
 
 ```bash
