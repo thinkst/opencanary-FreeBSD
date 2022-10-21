@@ -1,6 +1,6 @@
 OpenCanary creates a network honeypot allowing you to catch hackers before
 they fully compromise your systems.
-As a technical definition,OpenCanary is a daemon that runs several canary
+As a technical definition, OpenCanary is a daemon that runs several canary
 versions of services that alerts when a service is (ab)used.
 
 WWW: https://opencanary.readthedocs.io/en/latest/
