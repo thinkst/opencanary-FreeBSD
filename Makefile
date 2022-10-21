@@ -1,5 +1,6 @@
 PORTNAME=	opencanary
-DISTVERSION=	0.7.1
+DISTVERSION=	0.8.0
+DISTVERSIONPREFIX=      v
 CATEGORIES=	security
 MASTER_SITES=
 
@@ -18,7 +19,6 @@ USE_PYTHON=	distutils noflavors autoplist
 USE_GITHUB=	yes
 GH_ACCOUNT=	thinkst
 GH_PROJECT=	opencanary
-GH_TAGNAME=	ae6cac9
 
 EXTRACT_DEPENDS=${PYTHON_PKGNAMEPREFIX}setuptools>0:devel/py-setuptools \
 		${PYTHON_PKGNAMEPREFIX}setuptools-pkg>0:devel/py-setuptools-pkg
