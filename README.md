@@ -24,7 +24,7 @@ Clone the repo and run the following commands
 sudo make package
 ```
 
-This will create a FreeBSD package in the `work/pk` folder of the port.
+This will create a FreeBSD package in the `work/pkg/` folder of the port.
 The package can be installed on systems using
 
 ```bash
